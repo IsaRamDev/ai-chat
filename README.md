@@ -39,9 +39,9 @@ Get a Groq API key at [console.groq.com](https://console.groq.com).
 
 | Model | ID | Best for |
 |---|---|---|
-| Llama 3.3 70B | `llama-3.3-70b-versatile` | Everyday tasks |
-| Llama 3.1 8B | `llama-3.1-8b-instant` | Fast, simple queries |
-| Mixtral 8x7B | `mixtral-8x7b-32768` | Complex reasoning |
+| GPT-OSS 120B | `openai/gpt-oss-120b` | Everyday tasks |
+| GPT-OSS 20B | `openai/gpt-oss-20b` | Fast, simple queries |
+| Qwen 27B | `qwen/qwen3.x-27b` | Reasoning, image input |
 
 ---
 

@@ -20,7 +20,7 @@ export function useChat() {
   const [conversations, setConversations] = useState([createConversation()])
   const [activeId, setActiveId]           = useState(() => conversations[0].id)
   const [streaming, setStreaming]         = useState(false)
-  const [model, setModel]                 = useState('llama-3.3-70b-versatile')
+  const [model, setModel]                 = useState('openai/gpt-oss-120b')
   const abortRef                          = useRef(null)
 
   const activeConversation = conversations.find((c) => c.id === activeId) ?? conversations[0]

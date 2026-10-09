@@ -5,7 +5,7 @@
  * The API key lives only on the server — never exposed to the browser.
  */
 export async function POST(req) {
-  const { messages, model = 'llama-3.3-70b-versatile', systemPrompt } = await req.json()
+  const { messages, model = 'openai/gpt-oss-120b', systemPrompt } = await req.json()
 
   const apiKey = process.env.GROQ_API_KEY
   if (!apiKey) {
